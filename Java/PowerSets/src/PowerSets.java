@@ -16,8 +16,8 @@ public class PowerSets {
 		PowerSet ps = new PowerSet();
 		ArrayList<String> list = new ArrayList<String>(
 				Arrays.asList("a", "b", "c", "d"));
-		
 		ps.setList(list);
+
 		ps.calcSubsets();
 		for(List<String> l : ps.getSubSets()){
 			System.out.println(l);
